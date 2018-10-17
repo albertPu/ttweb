@@ -6,5 +6,10 @@ class Api {
         const val memberlist = "api/memberlist"
         const val registermember = "api/registermember"
         const val updatemember = "api/updatemember"
+        const val login = "api/login"
+
+        const val preOrder = "api/preorder"
     }
+
+
 }

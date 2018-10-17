@@ -7,6 +7,7 @@ import com.cx.tt.utils.extension.firstOne
 import com.cx.tt.utils.extension.isNull
 import com.cx.tt.web.Api
 import com.cx.tt.web.vo.MemberVO
+import com.oracle.util.Checksums.update
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.transaction
 import org.springframework.web.bind.annotation.GetMapping
@@ -53,16 +54,26 @@ class MemberController : BaseController() {
             }.firstOne().forEach {
                 member = MemberVO(it[MMember.name], it[MMember.age])
             }
-
-
         }
+        return success(member)
+    }
 
-        var mem = transaction {
+    @PostMapping(Api.login)
+    fun login(@RequestParam("name") name: String, @RequestParam("pwd") pwd: String): Any {
+        var member: MemberVO? = null
+        transaction {
             MMember.select {
-                MMember.name eq ""
+                MMember.name.eq(name) and MMember.pwd.eq(pwd)
+            }.firstOne("用户名或密码错误").forEach { it ->
+                member = MemberVO(it[MMember.name], it[MMember.age], it[MMember.token], it[MMember.expireData].toString())
+                MMember.update {
+                    val uuid = UUID.randomUUID().toString()
+                    it[MMember.token] = uuid
+                    member = member?.copy(token = uuid)
+                }
+                return@forEach
             }
         }
-
         return success(member)
     }
 

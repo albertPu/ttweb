@@ -12,4 +12,5 @@ object MMember : BaseEntity() {
     var email = varchar("email", 128).nullable()
     var totalMoney = decimal("total_money", 11, 2).nullable()
     var expireData = datetime("expire_data").nullable()
+    var token = varchar("token", 128).nullable()
 }

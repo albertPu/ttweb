@@ -9,5 +9,16 @@ object MOrders : BaseEntity() {
 }
 
 enum class OrderState {
-    Success, UnPay
+    Success {
+        override fun desc(): String {
+            return "支付成功"
+        }
+    },
+    UnPay {
+        override fun desc(): String {
+            return "未支付"
+        }
+    };
+
+    abstract fun desc(): String
 }

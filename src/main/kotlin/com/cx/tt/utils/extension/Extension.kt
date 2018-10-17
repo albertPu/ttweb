@@ -4,11 +4,38 @@ package com.cx.tt.utils.extension
 
 import com.cx.tt.globe.WebException
 import org.jetbrains.exposed.sql.Query
+import java.text.SimpleDateFormat
+import java.util.*
 
 fun Query.findOne(): Query {
     return this.limit(1, 0)
 }
 
+fun String.createOrderNo(): String {
+    val df = SimpleDateFormat("yyyyMMddHHmm")
+    val calendar = Calendar.getInstance()
+    val dateName = df.format(calendar.time)
+    val x: Int = ((Math.random() * 9 + 1) * 100000).toInt()
+    val random_order = x.toString()
+    return dateName + random_order
+}
+
+fun <T> Iterable<T>.firstOrThrow(msg: String = "未知错误"): T? {
+    return when (this) {
+        is List -> {
+            if (isEmpty())
+                throw WebException(msg)
+            else
+                this[0]
+        }
+        else -> {
+            val iterator = iterator()
+            if (!iterator.hasNext())
+                throw WebException(msg)
+            iterator.next()
+        }
+    }
+}
 
 fun <T> Iterable<T>.firstOne(msg: String = "未知错误"): Iterable<T> {
     return when (this) {
@@ -17,10 +44,8 @@ fun <T> Iterable<T>.firstOne(msg: String = "未知错误"): Iterable<T> {
             val iterator = iterator()
             if (!iterator.hasNext())
                 throw WebException(msg)
-            val single = iterator.next()
-            if (iterator.hasNext())
-                throw WebException(msg)
-            this
+            else
+                this
         }
     }
 }

@@ -16,8 +16,8 @@ class TtApplication
 
 fun main(args: Array<String>) {
     runApplication<TtApplication>(*args)
-    Database.connect(SpringUtil.getBean("DataSource") as DataSource)
-    // Database.connect("jdbc:mysql://localhost/test?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull", "com.mysql.jdbc.Driver", "root", "123456")
+    //Database.connect(SpringUtil.getBean("DataSource") as DataSource)
+    Database.connect("jdbc:mysql://localhost/test?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull", "com.mysql.jdbc.Driver", "root", "123456")
     transaction {
         SchemaUtils.createMissingTablesAndColumns(MMember, MOrders)
     }

@@ -4,8 +4,10 @@ import com.cx.tt.entity.MMember
 import com.cx.tt.entity.OrderState
 import com.cx.tt.globe.WebException
 import com.cx.tt.utils.extension.firstOne
+import com.cx.tt.utils.extension.firstOrThrow
 import com.cx.tt.utils.extension.isNull
 import com.cx.tt.web.Api
+import com.cx.tt.web.VipLevel
 import com.cx.tt.web.vo.MemberVO
 import com.oracle.util.Checksums.update
 import org.jetbrains.exposed.sql.*
@@ -23,10 +25,9 @@ class MemberController : BaseController() {
     fun getMember(): Any {
         val rsMembers = ArrayList<MemberVO>()
         transaction {
-            SchemaUtils.createMissingTablesAndColumns(MMember)
             MMember.select {
                 MMember.age.eq(20) and MMember.name.eq("张三")
-            }.forEach {
+            }.firstOrThrow()?.let {
                 rsMembers.add(MemberVO(it[MMember.name], it[MMember.age]))
             }
         }
@@ -46,13 +47,9 @@ class MemberController : BaseController() {
                     it[MMember.name] = name
                     it[MMember.pwd] = pwd
                     it[MMember.age] = age
-
+                    it[MMember.vipLevel] = VipLevel.VIP0
+                    member = MemberVO(it[MMember.name], it[MMember.age])
                 }
-            }
-            MMember.select {
-                MMember.name.eq(name)
-            }.firstOne().forEach {
-                member = MemberVO(it[MMember.name], it[MMember.age])
             }
         }
         return success(member)
@@ -64,14 +61,13 @@ class MemberController : BaseController() {
         transaction {
             MMember.select {
                 MMember.name.eq(name) and MMember.pwd.eq(pwd)
-            }.firstOne("用户名或密码错误").forEach { it ->
+            }.firstOrThrow("用户名或密码错误")?.let {
                 member = MemberVO(it[MMember.name], it[MMember.age], it[MMember.token], it[MMember.expireData].toString())
                 MMember.update {
                     val uuid = UUID.randomUUID().toString()
                     it[MMember.token] = uuid
                     member = member?.copy(token = uuid)
                 }
-                return@forEach
             }
         }
         return success(member)
@@ -87,7 +83,7 @@ class MemberController : BaseController() {
         transaction {
             MMember.select {
                 MMember.name.eq(name)
-            }.firstOne("用户名不存在").forEach { it ->
+            }.firstOrThrow("用户名不存在")?.let { it ->
                 MMember.update({ MMember.id.eq(it[MMember.id]) }) {
                     it[MMember.age] = 0
                     it[MMember.address] = address

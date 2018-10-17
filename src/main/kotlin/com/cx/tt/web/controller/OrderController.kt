@@ -43,4 +43,10 @@ class OrderController : BaseController() {
         }
         return success(order)
     }
+
+    @PostMapping(Api.orderQuery)
+    fun orderQuery(): Any {
+        return success()
+    }
+
 }

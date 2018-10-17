@@ -13,7 +13,6 @@ import javax.sql.DataSource
 @SpringBootApplication
 class TtApplication
 
-
 fun main(args: Array<String>) {
     runApplication<TtApplication>(*args)
     //Database.connect(SpringUtil.getBean("DataSource") as DataSource)

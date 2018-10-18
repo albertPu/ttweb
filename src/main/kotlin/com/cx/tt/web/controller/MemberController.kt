@@ -1,15 +1,11 @@
 package com.cx.tt.web.controller
 
 import com.cx.tt.entity.MMember
-import com.cx.tt.entity.OrderState
-import com.cx.tt.globe.WebException
-import com.cx.tt.utils.extension.firstOne
 import com.cx.tt.utils.extension.firstOrThrow
 import com.cx.tt.utils.extension.isNull
 import com.cx.tt.web.Api
 import com.cx.tt.web.VipLevel
 import com.cx.tt.web.vo.MemberVO
-import com.oracle.util.Checksums.update
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.transaction
 import org.springframework.web.bind.annotation.GetMapping
@@ -48,7 +44,7 @@ class MemberController : BaseController() {
                     it[MMember.pwd] = pwd
                     it[MMember.age] = age
                     it[MMember.vipLevel] = VipLevel.VIP0
-                    member = MemberVO(it[MMember.name], it[MMember.age])
+                    member = MemberVO(name, age)
                 }
             }
         }

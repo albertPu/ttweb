@@ -11,7 +11,7 @@ class TokenInterceptor : HandlerInterceptor {
 
     @Throws(Exception::class)
     override fun preHandle(request: HttpServletRequest, httpServletResponse: HttpServletResponse, o: Any): Boolean {
-        request.getParameter("token") ?: throw WebException("请输入token")
+        request.getParameter("token") ?: throw WebException("请登陆")
         return true
     }
 

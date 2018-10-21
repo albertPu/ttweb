@@ -21,10 +21,14 @@ class MemberController : BaseController() {
     fun getMember(): Any {
         val rsMembers = ArrayList<MemberVO>()
         transaction {
-            MMember.select {
-                MMember.age.eq(20) and MMember.name.eq("张三")
-            }.firstOrThrow()?.let {
-                rsMembers.add(MemberVO(it[MMember.name], it[MMember.age]))
+            MMember.selectAll().forEach {
+                rsMembers.add(MemberVO(
+                        it[MMember.name],
+                        it[MMember.age],
+                        it[MMember.token],
+                        it[MMember.expireData].toString(),
+                        it[MMember.vipLevel]
+                ))
             }
         }
         return success(rsMembers)

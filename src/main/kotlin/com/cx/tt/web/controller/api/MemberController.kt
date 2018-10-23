@@ -1,11 +1,13 @@
-package com.cx.tt.web.controller
+package com.cx.tt.web.controller.api
 
 import com.cx.tt.entity.MMember
+import com.cx.tt.entity.MVideo
 import com.cx.tt.utils.extension.firstOrThrow
 import com.cx.tt.utils.extension.isNull
 import com.cx.tt.web.Api
 import com.cx.tt.web.VipLevel
-import com.cx.tt.web.vo.MemberVO
+import com.cx.tt.web.controller.BaseController
+import com.cx.tt.web.vo.api.MemberVO
 import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.transaction
 import org.springframework.web.bind.annotation.GetMapping
@@ -93,6 +95,15 @@ class MemberController : BaseController() {
             }
         }
         return success(member)
+    }
+
+
+    @PostMapping(Api.DeleteVideo)
+    fun deleteVideo(@RequestParam("id") id: String): Any {
+        transaction {
+            MVideo.deleteWhere { MVideo.id.eq(id) }
+        }
+        return success()
     }
 
 }

@@ -51,22 +51,43 @@ fun <T> Iterable<T>.firstOne(msg: String = "未知错误"): Iterable<T> {
 }
 
 fun <T> Iterable<T>.isNull(msg: String = "未知错误"): Boolean {
-    when (this) {
-        is List -> {
-            when (size) {
-                0 -> true
-                else -> throw WebException(msg)
-            }
+    return if (this is List) {
+        if (size == 0) {
+            true
+        } else {
+            throw WebException(msg)
         }
-        else -> {
-            val iterator = iterator()
-            if (!iterator.hasNext())
-                true
-            if (iterator.hasNext())
-                throw WebException(msg)
+    } else {
+        val iterator = iterator()
+        if (!iterator.hasNext()) {
+            true
+        } else {
+            throw WebException(msg)
         }
     }
-    return false
+}
+
+fun <T> Iterable<T>.isNotNull(msg: String = "未知错误"): Iterable<T> {
+    return if (this is List) {
+        if (size == 0) {
+            throw WebException(msg)
+        } else {
+            this
+        }
+    } else {
+        val iterator = iterator()
+        if (!iterator.hasNext()) {
+            throw WebException(msg)
+        } else {
+            this
+        }
+    }
+}
+
+fun <T> Iterable<T>.getPages(): Int {
+    return if (this.count() <= 0) {
+        1
+    } else Math.ceil(this.count().toDouble() / 10).toInt()
 }
 
 fun <T> List<T>.firstOne(msg: String): Iterable<T> {

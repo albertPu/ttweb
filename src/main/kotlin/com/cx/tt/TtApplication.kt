@@ -2,6 +2,7 @@ package com.cx.tt
 
 import com.cx.tt.entity.MMember
 import com.cx.tt.entity.MOrders
+import com.cx.tt.entity.MVideo
 import com.cx.tt.utils.SpringUtil
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
@@ -16,16 +17,16 @@ import org.springframework.web.context.WebApplicationContext
 import javax.sql.DataSource
 
 @SpringBootApplication
-class TtApplication : CommandLineRunner {
+open class TtApplication : CommandLineRunner {
 
 
     @Autowired
-    var dataSource: DataSource? = null;
+    var dataSource: DataSource? = null
 
     override fun run(vararg args: String?) {
         Database.connect(dataSource!!)
         transaction {
-            SchemaUtils.createMissingTablesAndColumns(MMember, MOrders)
+            SchemaUtils.createMissingTablesAndColumns(MMember, MOrders, MVideo)
         }
     }
 

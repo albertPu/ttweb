@@ -20,6 +20,14 @@ class Api {
         const val AddVideo = "/admin/addVideo"
         const val DeleteVideo = "/admin/deleteVideo"
         const val VideoQuery = "/admin/videoQuery"
+        const val VideoQueryByName = "/admin/queryByName"
+
+        const val AddDiscuss = "/admin/addDiscuss"
+        const val QueryDiscuss = "/admin/queryDiscuss"
+        const val DeleteDiscuss = "/admin/deleteDiscuss"
+        const val AddShuffling = "/admin/addShuffling"
+        const val QueryShuffling = "/admin/queryShuffling"
+        const val DeleteShuffling = "/admin/deleteShuffling"
     }
 
 

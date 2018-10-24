@@ -1,8 +1,6 @@
 package com.cx.tt
 
-import com.cx.tt.entity.MMember
-import com.cx.tt.entity.MOrders
-import com.cx.tt.entity.MVideo
+import com.cx.tt.entity.*
 import com.cx.tt.utils.SpringUtil
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
@@ -26,7 +24,7 @@ open class TtApplication : CommandLineRunner {
     override fun run(vararg args: String?) {
         Database.connect(dataSource!!)
         transaction {
-            SchemaUtils.createMissingTablesAndColumns(MMember, MOrders, MVideo)
+            SchemaUtils.createMissingTablesAndColumns(MMember, MOrders, MVideo, MDiscuss, MShuffling)
         }
     }
 

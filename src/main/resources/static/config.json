@@ -1,0 +1,69 @@
+{
+  "code": 200,
+  "success": true,
+  "data": {
+    "vips": [
+      {
+        "label": "VIP0",
+        "value": "0"
+      },
+      {
+        "label": "VIP1",
+        "value": "1"
+      },
+      {
+        "label": "VIP2",
+        "value": "2"
+      },
+      {
+        "label": "VIP3",
+        "value": "3"
+      },
+      {
+        "label": "VIP4",
+        "value": "4"
+      },
+      {
+        "label": "VIP5",
+        "value": "5"
+      },
+      {
+        "label": "VIP6",
+        "value": "6"
+      },
+      {
+        "label": "VIP7",
+        "value": "7"
+      },
+      {
+        "label": "VIP8",
+        "value": "8"
+      }
+    ],
+    "types": [
+      {
+        "label": "国产",
+        "value": 0
+      },
+      {
+        "label": "欧美",
+        "value": 1
+      },
+      {
+        "label": "其他",
+        "value": 2
+      }
+    ],
+    "shufflingType": [
+      {
+        "value": 0,
+        "label": "视频"
+      },
+      {
+        "value": 1,
+        "label": "广告"
+      }
+    ]
+  },
+  "msg": ""
+}

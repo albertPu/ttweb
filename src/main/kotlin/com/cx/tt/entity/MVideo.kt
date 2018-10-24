@@ -7,7 +7,8 @@ object MVideo : BaseEntity() {
     var videoPlayUrl = varchar("video_play_url", 1080)
     var desc = text("desc").nullable()
     var discussNumber = integer("discuss_number")
-    val videoType = enumeration("video_type", VideoType::class).default(VideoType.Other)
+    var videoType = enumeration("video_type", VideoType::class).default(VideoType.Other)
+    var vipLevel = integer("vip_level").default(0)
 }
 
 enum class VideoType(var type: Int) {

@@ -14,6 +14,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import javax.servlet.MultipartConfigElement;
@@ -23,7 +24,7 @@ import java.util.List;
 public class WebAppConfig implements WebMvcConfigurer {
 
 
-   // @Value("${img.location}")
+    @Value("${img.location}")
     private String location;
 
 
@@ -31,7 +32,7 @@ public class WebAppConfig implements WebMvcConfigurer {
     public MultipartConfigElement multipartConfigElement() {
         MultipartConfigFactory factory = new MultipartConfigFactory();
         //文件最大KB,MB
-        factory.setMaxFileSize("2MB");
+        factory.setMaxFileSize("5MB");
         //设置总上传数据总大小
         factory.setMaxRequestSize("10MB");
         return factory.createMultipartConfig();
@@ -66,5 +67,12 @@ public class WebAppConfig implements WebMvcConfigurer {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", buildConfig()); // 4
         return new CorsFilter(source);
+    }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        // 指定到D盘下的myFile文件夹
+        // 注:如果是Linux的话，直接指定文件夹路径即可，不需要指定哪个盘(Linux就一个可用盘)
+        registry.addResourceHandler("/img/**").addResourceLocations("file:" + location);
     }
 }

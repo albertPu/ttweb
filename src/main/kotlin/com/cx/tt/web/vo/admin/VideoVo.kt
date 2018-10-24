@@ -9,4 +9,5 @@ class VideoVo {
     var discussNumber = 0
     var addVideoType = 0
     var typeName = ""
+    var vipLevel = 0
 }

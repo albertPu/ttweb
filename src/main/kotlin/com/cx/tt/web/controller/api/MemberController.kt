@@ -98,12 +98,5 @@ class MemberController : BaseController() {
     }
 
 
-    @PostMapping(Api.DeleteVideo)
-    fun deleteVideo(@RequestParam("id") id: String): Any {
-        transaction {
-            MVideo.deleteWhere { MVideo.id.eq(id) }
-        }
-        return success()
-    }
 
 }

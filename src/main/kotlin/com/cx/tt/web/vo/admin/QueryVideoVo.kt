@@ -1,6 +1,6 @@
 package com.cx.tt.web.vo.admin
 
-class QueryVieoVo {
+class QueryVideoVo {
     var queryVideoType = 0
     var queryVideoName = ""
     var currentPage = 1

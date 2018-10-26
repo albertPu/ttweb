@@ -55,6 +55,7 @@ class PageController : BaseController() {
                 movieVo.videoType = it[MVideo.videoType].type
                 movieVo.vipLevel = it[MVideo.vipLevel]
                 movieVo.id = it[MVideo.id].toString()
+                movieVo.typeName = it[MVideo.videoType].desc()
                 list.add(movieVo)
             }
         }

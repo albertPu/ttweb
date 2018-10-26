@@ -12,7 +12,8 @@ class Api {
         const val login = "/api/member/login"
         const val preOrder = "/api/order/pre"
         const val orderQuery = "/api/order/query"
-
+        const val pageBanner = "/api/page/banner"
+        const val pageGetMovie = "/api/page/movies"
         /**
          *admin
          */
@@ -21,7 +22,6 @@ class Api {
         const val DeleteVideo = "/admin/deleteVideo"
         const val VideoQuery = "/admin/videoQuery"
         const val VideoQueryByName = "/admin/queryByName"
-
         const val AddDiscuss = "/admin/addDiscuss"
         const val QueryDiscuss = "/admin/queryDiscuss"
         const val DeleteDiscuss = "/admin/deleteDiscuss"

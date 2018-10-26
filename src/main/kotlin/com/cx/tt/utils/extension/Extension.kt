@@ -20,7 +20,7 @@ fun String.createOrderNo(): String {
     return dateName + random_order
 }
 
-fun <T> Iterable<T>.firstOrThrow(msg: String = "未知错误"): T? {
+fun <T> Iterable<T>.firstOrThrow(msg: String = "未知错误"): T {
     return when (this) {
         is List -> {
             if (isEmpty())

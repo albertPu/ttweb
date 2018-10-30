@@ -14,6 +14,7 @@ class Api {
         const val orderQuery = "/api/order/query"
         const val pageBanner = "/api/page/banner"
         const val pageGetMovie = "/api/page/movies"
+        const val pageGetMovieMore = "/api/page/moviesMore"
         /**
          *admin
          */

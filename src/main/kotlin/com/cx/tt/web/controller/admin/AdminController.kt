@@ -79,7 +79,7 @@ class AdminController : BaseController() {
                 } else {
                     MVideo.videoType.eq(VideoType.values()[query.queryVideoType])
                 }
-            }.isNotNull("数据不存在").getPages()
+            }.isNotNull("数据不存在").count()
 
             MVideo.select {
                 if (!query.queryVideoName.isEmpty()) {
@@ -88,7 +88,7 @@ class AdminController : BaseController() {
                 } else {
                     MVideo.videoType.eq(VideoType.values()[query.queryVideoType])
                 }
-            }.limit(10, query.currentPage - 1).orderBy(MVideo.createTime).forEach {
+            }.limit(query.currentPage *10, (query.currentPage - 1) * 10).orderBy(MVideo.createTime).forEach {
                 val vr = VideoVo()
                 vr.id = it[MVideo.id].toString()
                 vr.videoName = it[MVideo.videoName]
@@ -247,7 +247,7 @@ class AdminController : BaseController() {
                 shuffling.adCoverImage = it[MShuffling.adCoverImage]
                 shuffling.adJumpUrl = it[MShuffling.adJumpUrl]
                 shuffling.adTitle = it[MShuffling.adTitle]
-                shuffling.shufflingType=it[MShuffling.shufflingType].type
+                shuffling.shufflingType = it[MShuffling.shufflingType].type
                 shuffling.videoId = it[MShuffling.videoId].toString()
                 if (shuffling.videoId != "null") {
                     shuffling.videoName = MVideo.select {

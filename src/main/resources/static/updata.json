@@ -1,0 +1,861 @@
+{
+  "ErrorCode": 0,
+  "ErrorMsg": "",
+  "Data": {
+    "NewMatch": null,
+    "UpdateMatch": {
+      "28023001": {
+        "MatchId": 28023001,
+        "MatchCode": "000010",
+        "GameID": 1,
+        "Ktm": "2018-12-11T21:59:00",
+        "ShowTime": "1H 17'",
+        "Etm": "2018-12-11T22:00:00",
+        "LeagueId": 80547,
+        "TeamId1": 567350,
+        "TeamId2": 68313,
+        "T1V": 0,
+        "T2V": 0,
+        "Neu": true,
+        "Moc": 13,
+        "Rc1": 0,
+        "Rc2": 0,
+        "Tsp": false,
+        "LDM": 0,
+        "IsLive": true,
+        "HLS": 0,
+        "Sup": false,
+        "Sid": "0",
+        "Src": 0,
+        "MaT": "l",
+        "GST": 0
+      },
+      "28023002": {
+        "MatchId": 28023002,
+        "MatchCode": "000012",
+        "GameID": 1,
+        "Ktm": "2018-12-11T21:59:00",
+        "ShowTime": "1H 15'",
+        "Etm": "2018-12-11T22:00:00",
+        "LeagueId": 80547,
+        "TeamId1": 567353,
+        "TeamId2": 567354,
+        "T1V": 1,
+        "T2V": 2,
+        "Neu": true,
+        "Moc": 7,
+        "Rc1": 0,
+        "Rc2": 0,
+        "Tsp": false,
+        "LDM": 0,
+        "IsLive": true,
+        "HLS": 0,
+        "Sup": false,
+        "Sid": "0",
+        "Src": 0,
+        "MaT": "l",
+        "GST": 0
+      },
+      "28023004": {
+        "MatchId": 28023004,
+        "MatchCode": "000013",
+        "GameID": 1,
+        "Ktm": "2018-12-11T21:59:00",
+        "ShowTime": "1H 17'",
+        "Etm": "2018-12-11T22:00:00",
+        "LeagueId": 80547,
+        "TeamId1": 567355,
+        "TeamId2": 86176,
+        "T1V": 0,
+        "T2V": 1,
+        "Neu": true,
+        "Moc": 13,
+        "Rc1": 0,
+        "Rc2": 0,
+        "Tsp": false,
+        "LDM": 0,
+        "IsLive": true,
+        "HLS": 0,
+        "Sup": false,
+        "Sid": "0",
+        "Src": 0,
+        "MaT": "l",
+        "GST": 0
+      },
+      "28016724": {
+        "MatchId": 28016724,
+        "MatchCode": "00999WENDY-2",
+        "GameID": 1,
+        "Ktm": "2018-12-11T21:30:00",
+        "ShowTime": "Ref_live",
+        "Etm": "2018-12-11T21:31:00",
+        "LeagueId": 42037,
+        "TeamId1": 438939,
+        "TeamId2": 433308,
+        "T1V": 0,
+        "T2V": 0,
+        "Neu": true,
+        "Moc": 37,
+        "Rc1": 0,
+        "Rc2": 0,
+        "Tsp": false,
+        "LDM": 0,
+        "IsLive": true,
+        "HLS": 0,
+        "Sup": false,
+        "Sid": "0",
+        "Src": 0,
+        "CO": 3,
+        "MaT": "l",
+        "GST": 3
+      }
+    },
+    "UpdateOdds": {
+      "28023001": {
+        "Ins": null,
+        "Del": null,
+        "Chg": {
+          "0": {
+            "MarketId": 175134168,
+            "MatchId": 28023001,
+            "BetTypeId": 1,
+            "Line": 0.25,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.96,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.88,
+                "Seq": 1
+              }
+            }
+          },
+          "1": {
+            "MarketId": 175152736,
+            "MatchId": 28023001,
+            "BetTypeId": 1,
+            "Line": 0.0,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.69,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": -0.85,
+                "Seq": 1
+              }
+            }
+          },
+          "2": {
+            "MarketId": 175134163,
+            "MatchId": 28023001,
+            "BetTypeId": 3,
+            "Line": 2.5,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.83,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.99,
+                "Seq": 1
+              }
+            }
+          },
+          "3": {
+            "MarketId": 175152737,
+            "MatchId": 28023001,
+            "BetTypeId": 3,
+            "Line": 2.75,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.89,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.71,
+                "Seq": 1
+              }
+            }
+          },
+          "4": {
+            "MarketId": 175134157,
+            "MatchId": 28023001,
+            "BetTypeId": 5,
+            "Line": 0.1,
+            "Cat": 0,
+            "Pty": 1,
+            "Pim": false,
+            "Pfm": 0,
+            "Paj": 0,
+            "Selections": {
+              "1": {
+                "SelId": "1",
+                "Price": 2.2600,
+                "Seq": 0
+              },
+              "x": {
+                "SelId": "x",
+                "Price": 3.0000,
+                "Seq": 1
+              },
+              "2": {
+                "SelId": "2",
+                "Price": 2.9000,
+                "Seq": 2
+              }
+            }
+          },
+          "5": {
+            "MarketId": 175134154,
+            "MatchId": 28023001,
+            "BetTypeId": 7,
+            "Line": 0.25,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.7,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.54,
+                "Seq": 1
+              }
+            }
+          },
+          "6": {
+            "MarketId": 175152738,
+            "MatchId": 28023001,
+            "BetTypeId": 7,
+            "Line": 0.0,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.71,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": -0.87,
+                "Seq": 1
+              }
+            }
+          },
+          "7": {
+            "MarketId": 175134152,
+            "MatchId": 28023001,
+            "BetTypeId": 8,
+            "Line": 0.75,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.85,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.97,
+                "Seq": 1
+              }
+            }
+          },
+          "8": {
+            "MarketId": 175152739,
+            "MatchId": 28023001,
+            "BetTypeId": 8,
+            "Line": 1.0,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.72,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.54,
+                "Seq": 1
+              }
+            }
+          },
+          "9": {
+            "MarketId": 175134144,
+            "MatchId": 28023001,
+            "BetTypeId": 15,
+            "Line": 0.1,
+            "Cat": 0,
+            "Pty": 1,
+            "Pim": false,
+            "Pfm": 0,
+            "Paj": 0,
+            "Selections": {
+              "1": {
+                "SelId": "1",
+                "Price": 3.2500,
+                "Seq": 0
+              },
+              "x": {
+                "SelId": "x",
+                "Price": 1.7600,
+                "Seq": 1
+              },
+              "2": {
+                "SelId": "2",
+                "Price": 4.1000,
+                "Seq": 2
+              }
+            }
+          }
+        },
+        "Sot": null
+      },
+      "28023002": {
+        "Ins": null,
+        "Del": null,
+        "Chg": {
+          "0": {
+            "MarketId": 175134243,
+            "MatchId": 28023002,
+            "BetTypeId": 1,
+            "Line": 0.25,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.93,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.91,
+                "Seq": 1
+              }
+            }
+          },
+          "1": {
+            "MarketId": 175152918,
+            "MatchId": 28023002,
+            "BetTypeId": 1,
+            "Line": 0.0,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.66,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": -0.82,
+                "Seq": 1
+              }
+            }
+          },
+          "2": {
+            "MarketId": 175152919,
+            "MatchId": 28023002,
+            "BetTypeId": 3,
+            "Line": 5.5,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.9,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.92,
+                "Seq": 1
+              }
+            }
+          },
+          "3": {
+            "MarketId": 175134240,
+            "MatchId": 28023002,
+            "BetTypeId": 3,
+            "Line": 5.75,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.8,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.62,
+                "Seq": 1
+              }
+            }
+          },
+          "4": {
+            "MarketId": 175134236,
+            "MatchId": 28023002,
+            "BetTypeId": 5,
+            "Line": 0.12,
+            "Cat": 0,
+            "Pty": 1,
+            "Pim": false,
+            "Pfm": 0,
+            "Paj": 0,
+            "Selections": {
+              "1": {
+                "SelId": "1",
+                "Price": 3.9000,
+                "Seq": 0
+              },
+              "x": {
+                "SelId": "x",
+                "Price": 3.4500,
+                "Seq": 1
+              },
+              "2": {
+                "SelId": "2",
+                "Price": 1.7400,
+                "Seq": 2
+              }
+            }
+          },
+          "5": {
+            "MarketId": 175134232,
+            "MatchId": 28023002,
+            "BetTypeId": 7,
+            "Line": 0.25,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.62,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.46,
+                "Seq": 1
+              }
+            }
+          },
+          "6": {
+            "MarketId": 175152916,
+            "MatchId": 28023002,
+            "BetTypeId": 7,
+            "Line": 0.0,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.7,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": -0.86,
+                "Seq": 1
+              }
+            }
+          },
+          "7": {
+            "MarketId": 175134230,
+            "MatchId": 28023002,
+            "BetTypeId": 8,
+            "Line": 3.75,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.7,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": -0.88,
+                "Seq": 1
+              }
+            }
+          },
+          "8": {
+            "MarketId": 175152917,
+            "MatchId": 28023002,
+            "BetTypeId": 8,
+            "Line": 4.0,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.9,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.72,
+                "Seq": 1
+              }
+            }
+          },
+          "9": {
+            "MarketId": 175134222,
+            "MatchId": 28023002,
+            "BetTypeId": 15,
+            "Line": 0.12,
+            "Cat": 0,
+            "Pty": 1,
+            "Pim": false,
+            "Pfm": 0,
+            "Paj": 0,
+            "Selections": {
+              "1": {
+                "SelId": "1",
+                "Price": 10.0000,
+                "Seq": 0
+              },
+              "x": {
+                "SelId": "x",
+                "Price": 3.4000,
+                "Seq": 1
+              },
+              "2": {
+                "SelId": "2",
+                "Price": 1.3700,
+                "Seq": 2
+              }
+            }
+          }
+        },
+        "Sot": null
+      },
+      "28023004": {
+        "Ins": null,
+        "Del": null,
+        "Chg": {
+          "0": {
+            "MarketId": 175134447,
+            "MatchId": 28023004,
+            "BetTypeId": 1,
+            "Line": -0.25,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.98,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.82,
+                "Seq": 1
+              }
+            }
+          },
+          "1": {
+            "MarketId": 175152544,
+            "MatchId": 28023004,
+            "BetTypeId": 1,
+            "Line": 0.0,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.71,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.55,
+                "Seq": 1
+              }
+            }
+          },
+          "2": {
+            "MarketId": 175134445,
+            "MatchId": 28023004,
+            "BetTypeId": 3,
+            "Line": 3.5,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.74,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": -0.92,
+                "Seq": 1
+              }
+            }
+          },
+          "3": {
+            "MarketId": 175152545,
+            "MatchId": 28023004,
+            "BetTypeId": 3,
+            "Line": 3.75,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.96,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.78,
+                "Seq": 1
+              }
+            }
+          },
+          "4": {
+            "MarketId": 175134443,
+            "MatchId": 28023004,
+            "BetTypeId": 5,
+            "Line": 0.12,
+            "Cat": 0,
+            "Pty": 1,
+            "Pim": false,
+            "Pfm": 0,
+            "Paj": 0,
+            "Selections": {
+              "1": {
+                "SelId": "1",
+                "Price": 6.5000,
+                "Seq": 0
+              },
+              "x": {
+                "SelId": "x",
+                "Price": 4.3000,
+                "Seq": 1
+              },
+              "2": {
+                "SelId": "2",
+                "Price": 1.3700,
+                "Seq": 2
+              }
+            }
+          },
+          "5": {
+            "MarketId": 175134441,
+            "MatchId": 28023004,
+            "BetTypeId": 7,
+            "Line": 0.0,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": -0.7,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.54,
+                "Seq": 1
+              }
+            }
+          },
+          "6": {
+            "MarketId": 175152554,
+            "MatchId": 28023004,
+            "BetTypeId": 7,
+            "Line": -0.25,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 2,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.73,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": -0.89,
+                "Seq": 1
+              }
+            }
+          },
+          "7": {
+            "MarketId": 175134440,
+            "MatchId": 28023004,
+            "BetTypeId": 8,
+            "Line": 1.75,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.9,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": 0.92,
+                "Seq": 1
+              }
+            }
+          },
+          "8": {
+            "MarketId": 175152555,
+            "MatchId": 28023004,
+            "BetTypeId": 8,
+            "Line": 1.5,
+            "Cat": 0,
+            "Pty": 0,
+            "Pim": false,
+            "Pfm": 3,
+            "Paj": 0,
+            "Selections": {
+              "h": {
+                "SelId": "h",
+                "Price": 0.59,
+                "Seq": 0
+              },
+              "a": {
+                "SelId": "a",
+                "Price": -0.77,
+                "Seq": 1
+              }
+            }
+          },
+          "9": {
+            "MarketId": 175134436,
+            "MatchId": 28023004,
+            "BetTypeId": 15,
+            "Line": 0.12,
+            "Cat": 0,
+            "Pty": 1,
+            "Pim": false,
+            "Pfm": 0,
+            "Paj": 0,
+            "Selections": {
+              "1": {
+                "SelId": "1",
+                "Price": 23.0000,
+                "Seq": 0
+              },
+              "x": {
+                "SelId": "x",
+                "Price": 4.8500,
+                "Seq": 1
+              },
+              "2": {
+                "SelId": "2",
+                "Price": 1.1500,
+                "Seq": 2
+              }
+            }
+          }
+        },
+        "Sot": null
+      }
+    },
+    "DelMatch": null,
+    "TeamN": null,
+    "LeagueN": null
+  },
+  "Syt": "2018-12-11T22:17:30.319508-04:00"
+}

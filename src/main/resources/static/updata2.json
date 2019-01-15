@@ -1,0 +1,1332 @@
+{
+  "Data": {
+    "DelMatch": [
+      "28391163","28446894","28461069"
+    ],
+    "UpdateMatch": {
+      "28412612": {
+        "CCode": "others",
+        "CO": 3,
+        "Etm": "2019-01-11T01:14:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T01:13:00",
+        "LDM": 0,
+        "LeagueId": 42037,
+        "MaT": "l",
+        "MatchCode": "00999KATE0108_2",
+        "MatchId": 28412612,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "Ref_live",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 438435,
+        "TeamId2": 433308,
+        "Tsp": false
+      },
+      "28444989": {
+        "CCode": "others",
+        "CO": 3,
+        "Etm": "2019-01-11T01:14:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T01:13:00",
+        "LDM": 0,
+        "LeagueId": 42037,
+        "MaT": "l",
+        "MatchCode": "00999KATE0110",
+        "MatchId": 28444989,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "Ref_live",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 350808,
+        "TeamId2": 108675,
+        "Tsp": false
+      },
+      "28457661": {
+        "CCode": "ALG",
+        "Etm": "2019-01-11T06:05:00",
+        "GST": 0,
+        "GV": true,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T06:05:00",
+        "LDM": 0,
+        "LeagueId": 59177,
+        "MaT": "l",
+        "MatchCode": "006260",
+        "MatchId": 28457661,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 45'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 364661,
+        "TeamId2": 423190,
+        "Tsp": false
+      },
+      "28457662": {
+        "CCode": "ALG",
+        "Etm": "2019-01-11T06:00:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T05:59:00",
+        "LDM": 0,
+        "LeagueId": 59177,
+        "MaT": "l",
+        "MatchCode": "006261",
+        "MatchId": 28457662,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "Ref_htime",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 364669,
+        "TeamId2": 364676,
+        "Tsp": false
+      },
+      "28457665": {
+        "CCode": "ALG",
+        "Etm": "2019-01-11T06:00:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T05:59:00",
+        "LDM": 0,
+        "LeagueId": 59178,
+        "MaT": "l",
+        "MatchCode": "006280 30M",
+        "MatchId": 28457665,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "Ref_htime",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 364677,
+        "TeamId2": 533591,
+        "Tsp": false
+      },
+      "28457666": {
+        "CCode": "ALG",
+        "Etm": "2019-01-11T06:12:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T06:12:00",
+        "LDM": 0,
+        "LeagueId": 59178,
+        "MaT": "l",
+        "MatchCode": "006281 30M",
+        "MatchId": 28457666,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 38'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 1,
+        "T2V": 0,
+        "TeamId1": 364681,
+        "TeamId2": 364679,
+        "Tsp": false
+      },
+      "28457667": {
+        "CCode": "ALG",
+        "Etm": "2019-01-11T06:26:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T06:26:00",
+        "LDM": 0,
+        "LeagueId": 59178,
+        "MaT": "l",
+        "MatchCode": "006282 30M",
+        "MatchId": 28457667,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 24'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 364690,
+        "TeamId2": 423189,
+        "Tsp": false
+      },
+      "28458374": {
+        "CCode": "ISR",
+        "Etm": "2019-01-11T05:45:00",
+        "GST": 0,
+        "GV": true,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T05:44:00",
+        "LDM": 0,
+        "LeagueId": 62385,
+        "MaT": "l",
+        "MatchCode": "006351",
+        "MatchId": 28458374,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "Ref_htime",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 1,
+        "T2V": 0,
+        "TeamId1": 380620,
+        "TeamId2": 380621,
+        "Tsp": false
+      },
+      "28458375": {
+        "CCode": "ISR",
+        "Etm": "2019-01-11T06:30:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T06:29:00",
+        "LDM": 0,
+        "LeagueId": 62385,
+        "MaT": "l",
+        "MatchCode": "006355",
+        "MatchId": 28458375,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 20'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 382001,
+        "TeamId2": 90442,
+        "Tsp": false
+      },
+      "28458376": {
+        "CCode": "ISR",
+        "Etm": "2019-01-11T06:15:00",
+        "GST": 0,
+        "GV": true,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T06:14:00",
+        "LDM": 0,
+        "LeagueId": 62385,
+        "MaT": "l",
+        "MatchCode": "006354",
+        "MatchId": 28458376,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 35'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": true,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 380386,
+        "TeamId2": 424472,
+        "Tsp": false
+      },
+      "28458383": {
+        "CCode": "ISR",
+        "Etm": "2019-01-11T06:00:00",
+        "GST": 0,
+        "GV": true,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T05:59:00",
+        "LDM": 0,
+        "LeagueId": 62385,
+        "MaT": "l",
+        "MatchCode": "006352",
+        "MatchId": 28458383,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "Ref_htime",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": true,
+        "T1V": 0,
+        "T2V": 1,
+        "TeamId1": 380383,
+        "TeamId2": 365397,
+        "Tsp": false
+      },
+      "28458384": {
+        "CCode": "ISR",
+        "Etm": "2019-01-11T06:30:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T06:29:00",
+        "LDM": 0,
+        "LeagueId": 62385,
+        "MaT": "l",
+        "MatchCode": "006356",
+        "MatchId": 28458384,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 19'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 383098,
+        "TeamId2": 383097,
+        "Tsp": false
+      },
+      "28458385": {
+        "CCode": "ISR",
+        "Etm": "2019-01-11T06:30:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T06:29:00",
+        "LDM": 0,
+        "LeagueId": 62385,
+        "MaT": "l",
+        "MatchCode": "006357",
+        "MatchId": 28458385,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 18'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 1,
+        "T2V": 0,
+        "TeamId1": 382009,
+        "TeamId2": 70040,
+        "Tsp": false
+      },
+      "28461069": {
+        "CCode": "World",
+        "Etm": "2019-01-11T06:30:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T06:29:00",
+        "LDM": 0,
+        "LeagueId": 27,
+        "MaT": "l",
+        "MatchCode": "004855",
+        "MatchId": 28461069,
+        "Moc": 34,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 18'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 1,
+        "T2V": 0,
+        "TeamId1": 216775,
+        "TeamId2": 7025,
+        "Tsp": false
+      },
+      "28462198": {
+        "CCode": "others",
+        "CO": 3,
+        "Etm": "2019-01-11T02:21:00",
+        "GST": 0,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T02:20:00",
+        "LDM": 0,
+        "LeagueId": 165,
+        "MaT": "l",
+        "MatchCode": "00MLROBOT01",
+        "MatchId": 28462198,
+        "Moc": 0,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "1H 89'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 0,
+        "T2V": 0,
+        "TeamId1": 295763,
+        "TeamId2": 295765,
+        "Tsp": false
+      },
+      "28462823": {
+        "CCode": "World",
+        "Etm": "2019-01-11T05:17:00",
+        "GST": 0,
+        "GV": true,
+        "GameID": 1,
+        "HLS": 0,
+        "IsLive": true,
+        "Ktm": "2019-01-11T05:17:00",
+        "LDM": 0,
+        "LeagueId": 27,
+        "MaT": "l",
+        "MatchCode": "004821",
+        "MatchId": 28462823,
+        "Moc": 12,
+        "Neu": false,
+        "Rc1": 0,
+        "Rc2": 0,
+        "ShowTime": "2H 32'",
+        "Sid": "0",
+        "Src": 0,
+        "Sup": false,
+        "T1V": 2,
+        "T2V": 1,
+        "TeamId1": 77601,
+        "TeamId2": 111463,
+        "Tsp": false
+      }
+    },
+    "UpdateOdds": {
+      "28457661": {
+        "Chg": {
+          "0": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 1.5,
+            "MarketId": 178674398,
+            "MatchId": 28457661,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.91,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.89,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "1": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 1.25,
+            "MarketId": 178738705,
+            "MatchId": 28457661,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": -0.77,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.57,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "2": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 1.75,
+            "MarketId": 178674396,
+            "MatchId": 28457661,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": -0.9,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.68,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "3": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 2.0,
+            "MarketId": 178738707,
+            "MatchId": 28457661,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.74,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.96,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          }
+        }
+      },
+      "28457666": {
+        "Chg": {
+          "0": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 0.0,
+            "MarketId": 178739176,
+            "MatchId": 28457666,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": -0.68,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.48,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "1": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 0.25,
+            "MarketId": 178674613,
+            "MatchId": 28457666,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.75,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.95,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "2": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 2.5,
+            "MarketId": 178739177,
+            "MatchId": 28457666,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.6,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.82,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "3": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 2.25,
+            "MarketId": 178674611,
+            "MatchId": 28457666,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.87,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.91,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          }
+        },
+        "Sot": [
+          178674613,
+          178739176,
+          178674611,
+          178739177,
+          178674610
+        ]
+      },
+      "28457667": {
+        "Chg": {
+          "0": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 1.0,
+            "MarketId": 178674656,
+            "MatchId": 28457667,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.82,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.98,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "3": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 1.75,
+            "MarketId": 178737939,
+            "MatchId": 28457667,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": -0.94,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.72,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          }
+        }
+      },
+      "28458375": {
+        "Chg": {
+          "7": {
+            "BetTypeId": 8,
+            "Cat": 0,
+            "Line": 0.5,
+            "MarketId": 178678805,
+            "MatchId": 28458375,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.96,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.8,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "9": {
+            "BetTypeId": 15,
+            "Cat": 0,
+            "Line": 0.1,
+            "MarketId": 178678796,
+            "MatchId": 28458375,
+            "Paj": 0,
+            "Pfm": 0,
+            "Pim": false,
+            "Pty": 1,
+            "Selections": {
+              "1": {
+                "Price": 2.9000,
+                "SelId": "1",
+                "Seq": 0
+              },
+              "2": {
+                "Price": 4.7500,
+                "SelId": "2",
+                "Seq": 2
+              },
+              "x": {
+                "Price": 1.6800,
+                "SelId": "x",
+                "Seq": 1
+              }
+            }
+          }
+        }
+      },
+      "28458376": {
+        "Chg": {
+          "0": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 0.0,
+            "MarketId": 178678956,
+            "MatchId": 28458376,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.73,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.95,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "2": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 1.75,
+            "MarketId": 178678954,
+            "MatchId": 28458376,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.8,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.96,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "3": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 1.5,
+            "MarketId": 178738710,
+            "MatchId": 28458376,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": -0.9,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.66,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "4": {
+            "BetTypeId": 5,
+            "Cat": 0,
+            "Line": 0.15,
+            "MarketId": 178678951,
+            "MatchId": 28458376,
+            "Paj": 0,
+            "Pfm": 0,
+            "Pim": false,
+            "Pty": 1,
+            "Selections": {
+              "1": {
+                "Price": 2.8700,
+                "SelId": "1",
+                "Seq": 0
+              },
+              "2": {
+                "Price": 2.4200,
+                "SelId": "2",
+                "Seq": 2
+              },
+              "x": {
+                "Price": 2.5800,
+                "SelId": "x",
+                "Seq": 1
+              }
+            }
+          },
+          "7": {
+            "BetTypeId": 8,
+            "Cat": 0,
+            "Line": 0.5,
+            "MarketId": 178678946,
+            "MatchId": 28458376,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.34,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.58,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "9": {
+            "BetTypeId": 15,
+            "Cat": 0,
+            "Line": 0.15,
+            "MarketId": 178678937,
+            "MatchId": 28458376,
+            "Paj": 0,
+            "Pfm": 0,
+            "Pim": false,
+            "Pty": 1,
+            "Selections": {
+              "1": {
+                "Price": 5.6000,
+                "SelId": "1",
+                "Seq": 0
+              },
+              "2": {
+                "Price": 4.9500,
+                "SelId": "2",
+                "Seq": 2
+              },
+              "x": {
+                "Price": 1.3000,
+                "SelId": "x",
+                "Seq": 1
+              }
+            }
+          }
+        }
+      },
+      "28458384": {
+        "Chg": {
+          "0": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 1.25,
+            "MarketId": 178679940,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.81,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.97,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "1": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 1.0,
+            "MarketId": 178739099,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": -0.95,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.73,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "2": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 2.25,
+            "MarketId": 178679937,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": -0.92,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.68,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "3": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 2.5,
+            "MarketId": 178739100,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.77,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.99,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "4": {
+            "BetTypeId": 5,
+            "Cat": 0,
+            "Line": 0.15,
+            "MarketId": 178679933,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 0,
+            "Pim": false,
+            "Pty": 1,
+            "Selections": {
+              "1": {
+                "Price": 1.3900,
+                "SelId": "1",
+                "Seq": 0
+              },
+              "2": {
+                "Price": 7.7000,
+                "SelId": "2",
+                "Seq": 2
+              },
+              "x": {
+                "Price": 3.3500,
+                "SelId": "x",
+                "Seq": 1
+              }
+            }
+          },
+          "5": {
+            "BetTypeId": 7,
+            "Cat": 0,
+            "Line": 0.5,
+            "MarketId": 178679929,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.54,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.76,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "7": {
+            "BetTypeId": 8,
+            "Cat": 0,
+            "Line": 0.75,
+            "MarketId": 178679927,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.71,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.95,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "8": {
+            "BetTypeId": 8,
+            "Cat": 0,
+            "Line": 0.5,
+            "MarketId": 178739115,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": -0.86,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.62,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "9": {
+            "BetTypeId": 15,
+            "Cat": 0,
+            "Line": 0.15,
+            "MarketId": 178679919,
+            "MatchId": 28458384,
+            "Paj": 0,
+            "Pfm": 0,
+            "Pim": false,
+            "Pty": 1,
+            "Selections": {
+              "1": {
+                "Price": 2.3100,
+                "SelId": "1",
+                "Seq": 0
+              },
+              "2": {
+                "Price": 6.3000,
+                "SelId": "2",
+                "Seq": 2
+              },
+              "x": {
+                "Price": 1.7900,
+                "SelId": "x",
+                "Seq": 1
+              }
+            }
+          }
+        }
+      },
+      "28458385": {
+        "Chg": {
+          "1": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 0.25,
+            "MarketId": 178731667,
+            "MatchId": 28458385,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.9,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.88,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "2": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 3.0,
+            "MarketId": 178680081,
+            "MatchId": 28458385,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.99,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.77,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "4": {
+            "BetTypeId": 5,
+            "Cat": 0,
+            "Line": 0.15,
+            "MarketId": 178680077,
+            "MatchId": 28458385,
+            "Paj": 0,
+            "Pfm": 0,
+            "Pim": false,
+            "Pty": 1,
+            "Selections": {
+              "1": {
+                "Price": 1.3300,
+                "SelId": "1",
+                "Seq": 0
+              },
+              "2": {
+                "Price": 7.2000,
+                "SelId": "2",
+                "Seq": 2
+              },
+              "x": {
+                "Price": 3.8500,
+                "SelId": "x",
+                "Seq": 1
+              }
+            }
+          },
+          "6": {
+            "BetTypeId": 7,
+            "Cat": 0,
+            "Line": 0.25,
+            "MarketId": 178731669,
+            "MatchId": 28458385,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.44,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.66,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          }
+        }
+      },
+      "28461069": {
+        "Chg": {
+          "5": {
+            "BetTypeId": 7,
+            "Cat": 0,
+            "Line": 0.25,
+            "MarketId": 178695050,
+            "MatchId": 28461069,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.94,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": 0.9,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "8": {
+            "BetTypeId": 8,
+            "Cat": 0,
+            "Line": 2.0,
+            "MarketId": 178731673,
+            "MatchId": 28461069,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.73,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.91,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          }
+        }
+      },
+      "28462823": {
+        "Chg": {
+          "0": {
+            "BetTypeId": 1,
+            "Cat": 0,
+            "Line": 0.0,
+            "MarketId": 178709189,
+            "MatchId": 28462823,
+            "Paj": 0,
+            "Pfm": 2,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.79,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.95,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          },
+          "3": {
+            "BetTypeId": 3,
+            "Cat": 0,
+            "Line": 3.75,
+            "MarketId": 178730182,
+            "MatchId": 28462823,
+            "Paj": 0,
+            "Pfm": 3,
+            "Pim": false,
+            "Pty": 0,
+            "Selections": {
+              "a": {
+                "Price": 0.71,
+                "SelId": "a",
+                "Seq": 1
+              },
+              "h": {
+                "Price": -0.89,
+                "SelId": "h",
+                "Seq": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "ErrorCode": 0,
+  "ErrorMsg": "",
+  "Syt": "2019-01-11T06:50:10.9400545-04:00"
+}
